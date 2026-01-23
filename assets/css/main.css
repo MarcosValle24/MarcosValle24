@@ -3423,6 +3423,16 @@ input, select, textarea {
 		position: relative;
 		top: -3.25em;
 	}
+	
+	#banner.Front.image{
+				background-position: center center;
+				background-size: cover;
+				border-radius: 0;
+				display: block;
+				position: relative;
+				width: 30%;
+
+	}
 
 		#banner:after {
 			-moz-transition: opacity 2.5s ease;
