@@ -3445,6 +3445,12 @@ input, select, textarea {
 				width: 30%;
 			}
 
+			#banner > .inner .image img{
+				border-radius: 0;
+					display: block;
+					width: 100%;
+			}
+
 			#banner > .inner header {
 				width: auto;
 			}
