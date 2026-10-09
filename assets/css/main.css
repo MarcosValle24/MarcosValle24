@@ -3814,6 +3814,11 @@ input, select, textarea {
 		line-height: 1.7;
 		flex-grow: 1;
 	}
+
+	.feature-desc strong {
+		color: #242943;
+	}
+
 	/* Optional: Add subtle border for logo container */
 	.feature-logo.bordered {
 		border: 2px solid #f0f0f0;
