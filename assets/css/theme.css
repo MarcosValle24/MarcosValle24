@@ -1,0 +1,271 @@
+body {
+	background: #F4EFE7;
+	color: #332B26;
+}
+
+body, input, select, textarea,
+h1, h2, h3, h4, h5, h6,
+strong, b {
+	color: #332B26;
+}
+
+a:hover {
+	color: #A5523B !important;
+}
+
+a:active {
+	color: #8A4432 !important;
+}
+
+#header {
+	background-color: #332B26;
+	color: #F4EFE7;
+}
+
+#header a {
+	color: #F4EFE7;
+}
+
+#header .logo strong {
+	background-color: #A5523B;
+	color: #F4EFE7;
+}
+
+#header .logo:hover strong,
+#header .logo:active strong {
+	background-color: #8A4432;
+}
+
+#header.alt {
+	background-color: transparent;
+}
+
+#header.alt a {
+	color: #332B26;
+}
+
+#header.alt .logo strong {
+	background-color: #A5523B;
+	color: #F4EFE7;
+}
+
+#header.alt.style1 .logo strong,
+#header.alt.style2 .logo strong,
+#header.alt.style3 .logo strong,
+#header.alt.style4 .logo strong,
+#header.alt.style5 .logo strong,
+#header.alt.style6 .logo strong {
+	color: #F4EFE7;
+}
+
+#header nav a[href="#menu"]:after,
+#menu .close:after {
+	filter: sepia(1) saturate(4) hue-rotate(335deg);
+}
+
+#header.alt nav a[href="#menu"]:before {
+	filter: brightness(0.2);
+}
+
+#banner:after {
+	background-color: #F4EFE7;
+}
+
+#banner.style1:after,
+#banner.style2:after,
+#banner.style3:after,
+#banner.style4:after,
+#banner.style5:after,
+#banner.style6:after {
+	background-color: #F4EFE7;
+}
+
+#banner > .inner,
+#banner > .inner p {
+	color: #332B26;
+}
+
+#banner header.major > :first-child:after {
+	background-color: #332B26;
+}
+
+#main,
+#footer {
+	background-color: #F4EFE7;
+	color: #332B26;
+}
+
+#wrapper > .features-section {
+	color: #332B26;
+}
+
+.section-header p {
+	color: #6B625A;
+}
+
+.feature-card {
+	background: #EAE2D7;
+}
+
+.feature-name,
+.feature-desc strong,
+.project-dialog h2,
+.project-dialog-close,
+.project-dialog-close:hover,
+.project-dialog-close:active {
+	color: #332B26;
+}
+
+.feature-desc,
+.project-dialog {
+	color: #6B625A;
+}
+
+.project-dialog {
+	background: #F4EFE7;
+}
+
+.project-dialog::backdrop {
+	background: rgba(51, 43, 38, 0.75);
+}
+
+.project-dialog-close:focus-visible,
+button.feature-link:focus-visible {
+	outline-color: #A5523B;
+}
+
+.feature-badge {
+	background: #A5523B;
+}
+
+#main > *,
+#footer .copyright li {
+	border-color: rgba(51, 43, 38, 0.16);
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6,
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6,
+#main strong, #footer strong {
+	color: #332B26;
+}
+
+#main a,
+#footer a {
+	color: #A5523B;
+}
+
+#main .spotlights > section,
+#main .spotlights > section:nth-child(2n) {
+	background-color: #EAE2D7;
+}
+
+#main .tiles article:before {
+	background-color: #332B26 !important;
+}
+
+#main .tiles article:after {
+	background-color: rgba(51, 43, 38, 0.3);
+}
+
+#main .tiles article,
+#main .tiles article h3,
+#main .tiles article a,
+#main .tiles article a:hover,
+#main .tiles article a:active {
+	color: #F4EFE7 !important;
+}
+
+#main .tiles article .image,
+#main .tiles article .image img {
+	color: #F4EFE7;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+select,
+textarea {
+	background-color: #EAE2D7;
+	color: #332B26;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+	box-shadow: inset 0 0 0 2px #332B26;
+	color: #332B26;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+	box-shadow: inset 0 0 0 2px #A5523B;
+	color: #A5523B;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+	box-shadow: inset 0 0 0 2px #8A4432;
+	color: #8A4432;
+}
+
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary {
+	background-color: #332B26;
+	color: #F4EFE7;
+}
+
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover {
+	background-color: #A5523B;
+	color: #F4EFE7 !important;
+}
+
+input[type="submit"].primary:active,
+input[type="reset"].primary:active,
+input[type="button"].primary:active,
+button.primary:active,
+.button.primary:active {
+	background-color: #8A4432;
+	color: #F4EFE7 !important;
+}
+
+#footer .copyright li {
+	color: rgba(51, 43, 38, 0.6);
+}
+
+#menu {
+	background: rgba(51, 43, 38, 0.97);
+	color: #F4EFE7;
+}
+
+#menu h2,
+#menu a,
+#menu .close {
+	color: #F4EFE7;
+}
+
+#menu a:hover,
+#menu .close:hover {
+	color: #A5523B !important;
+}
+
+#menu ul.links > li > a:not(.button) {
+	border-color: rgba(244, 239, 231, 0.2);
+}
